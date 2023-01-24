@@ -1,0 +1,8 @@
+davi : 9
+francisco : 10
+ze : 7
+paulo : 5
+amaral : 1
+zezin : 3
+cocada : 2
+jubiscleiton : 6

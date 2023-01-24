@@ -1,0 +1,7 @@
+leitura = open("valida2.txt", "r", encoding="utf-8")
+leitura.seek(22)
+corte = leitura.read(15)
+print(corte)
+leitura.seek(3)
+corte = leitura.read(5)
+print(corte)
