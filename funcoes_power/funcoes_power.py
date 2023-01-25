@@ -9,6 +9,7 @@ operacoes = lambda x, n : x*n + x / n
 print(operacoes(10,9))
 
 # funções map
+# vai passar por cada item do iteralvel, e recebe uma função para aplicar em cada intem do interavel
 base_numericas = [2,4,6,8,10]
 aplicaveis = [1,2,3,4,5]
 numeros_potenciais = list(map(pow,base_numericas, aplicaveis))
@@ -19,6 +20,7 @@ map_numeros = list(map(lambda x : x * 2 + 8, meus_numeros))
 print(map_numeros)
 
 # funções filter
+# vai filtrar o interavel e retornara condição de acordo com a condição pedida
 numeros = [0,4,7,2,1,0,9,3,5,6,8,0,3]
 numeros = list(filter(lambda x : x != 0, numeros))
 print(numeros)

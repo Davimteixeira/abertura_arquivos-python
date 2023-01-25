@@ -12,3 +12,7 @@ print(numero_impar)
 numero = [100,200,300,400,500,600,700,800,900,100]
 adiciona_imposto = list(map(lambda x : x * 0.15, numero))
 print(adiciona_imposto)
+
+alunos = [{'nome' : 'aurelice', 'matricula' : 1000}, {'nome': 'sara', 'matricula': 1100}, {'nome': 'aline', 'matricula':1200}]
+verifica_matricula = list(filter(lambda x: x['matricula'] >= 1100, alunos))
+print(verifica_matricula)
