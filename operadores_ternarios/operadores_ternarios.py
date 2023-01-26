@@ -1,5 +1,4 @@
 user_log = False
-
 if user_log == True:
     msg = 'Usuario logado com sucesso'
 else:
@@ -21,3 +20,8 @@ else:
     eh_adolescente = (idade > 12 and idade < 18)
     msg = 'você é de maior parabéns, ja pode ser preso' if eh_de_maior else 'você é adolecente!!' if eh_adolescente else 'Você é criança'
     print(msg)
+    
+# while True:
+#     x  = int(input('Digite um numero: '))
+#     valido = (x >= 0 and x <=10)
+#     print('Numero valido! saindo agora!') if valido else 'Numero invalido'

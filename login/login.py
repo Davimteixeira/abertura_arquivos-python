@@ -24,6 +24,7 @@ else:
         senha = input("Informe sua senha: ")
         for i, linha in enumerate(linhas):
             nova_linha = linha.replace('\n', '').split(':')
+            print(nova_linha)
             if  usuario == nova_linha[0] and senha == nova_linha[1]:
                 print("Dados OK! Sistema acessado com Sucesso!")
                 break
