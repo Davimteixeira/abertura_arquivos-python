@@ -1,0 +1,4 @@
+aurelice:3
+davi:9.4
+pv:10
+sara:9.1

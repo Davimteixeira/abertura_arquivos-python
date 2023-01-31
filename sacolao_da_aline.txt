@@ -1,0 +1,9 @@
+e:0.90 
+r:1.20 
+t:6.00 
+d:5.00 
+f:5.00 
+s:3.00 
+h:7.00 
+v:5.00 
+& C:/Users/davit/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/davit/Documents/abertura_arquivos/exercicios/questao_dicionario.py:3.00 
